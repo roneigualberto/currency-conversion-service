@@ -5,20 +5,19 @@ import java.math.BigDecimal;
 public class CurrencyConversionBean {
 
 	private Long id;
-	
+
 	private String from;
-	
+
 	private String to;
-	
+
 	private BigDecimal conversionMultiple;
-	
+
 	private BigDecimal quantity;
-	
+
 	private BigDecimal totalCalculatedAmount;
-	
+
 	private int port;
-	
-	
+
 	public CurrencyConversionBean() {
 	}
 
@@ -81,14 +80,13 @@ public class CurrencyConversionBean {
 	public void setTotalCalculatedAmount(BigDecimal totalCalculatedAmount) {
 		this.totalCalculatedAmount = totalCalculatedAmount;
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+	public int getPort() {
+		return port;
+	}
+
+	public void setPort(int port) {
+		this.port = port;
+	}
+
 }
